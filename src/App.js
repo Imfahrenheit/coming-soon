@@ -1,7 +1,7 @@
 import React from 'react';
-import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
-import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
-import { ReactComponent as IconGithub } from './assets/icons/github.svg';
+// import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
+// import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
+// import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
 
 class App extends React.Component {
@@ -10,9 +10,9 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href=".">Abroad Scholars</a>
           </div>
-          <div className="social">
+          {/* <div className="social">
             <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
               <IconFacebook className="icon" />
             </a>
@@ -22,23 +22,25 @@ class App extends React.Component {
             <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="content">
           <div className="title-holder">
-            <h1>Get ready for the change.</h1>
-            <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
+            <h1>We're Almost There!</h1>
+            <p>At Abroad Scholars, we help students, professionals, and prospective workers connect with global education and career opportunities.</p>
+
+            <p>Our platform will soon provide comprehensive guidance, resources, and support for scholars aiming to study abroad.</p>
+            <p>Stay tuned for exciting updates, and feel free to reach out if you want to learn more before we launch.</p>
           </div>
-          <a href="mailto:user@example.com">
-            <div className="cta">Send us an email</div>
+          <a href="mailto:info@abroadscholars.org">
+            <div className="cta">Contact Us</div>
           </a>
         </div>
-        <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/arkn98/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-        </div>
+        
       </div>
     );
   }
 }
 
 export default App;
+ 
